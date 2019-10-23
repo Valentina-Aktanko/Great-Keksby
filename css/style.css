@@ -23,7 +23,7 @@ body {
 .page-header {
     min-height: 490px;
     padding-top: 35px;
-    background-image: url("img/header-bg.jpg");
+    background-image: url("../img/header-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -117,15 +117,15 @@ body {
 }
 
 .feature-choice {
-    background: url("img/feature-1.png") top center no-repeat;
+    background: url("../img/feature-1.png") top center no-repeat;
 }
 
 .feature-quality {
-    background: url("img/feature-2.png") top center no-repeat;
+    background: url("../img/feature-2.png") top center no-repeat;
 }
 
 .feature-safety {
-    background: url("img/feature-3.png") top center no-repeat;
+    background: url("../img/feature-3.png") top center no-repeat;
 }
 
 .feature-title {
@@ -224,7 +224,7 @@ body {
 
 .feedback-form {
     padding-right: 390px;
-    background-image: url("img/write.jpg");
+    background-image: url("../img/write.jpg");
     background-repeat: no-repeat;
     background-position: 100% 40px;
 }
