@@ -109,16 +109,22 @@ body {
 
 .features ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .feature-item {
+    float: left;
+    width: 279px;
     padding-top: 90px;
+    padding-right: 30px;
+    padding-left: 30px;
     text-align: center;
     border-left: 1px solid #d9d9d9;
 }
 
 .feature-item:first-child {
-    border-left: none;
+    border-left-color: transparent;
 }
 
 .feature-choice {
