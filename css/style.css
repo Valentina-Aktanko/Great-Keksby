@@ -335,9 +335,18 @@ body {
     padding-bottom: 50px;
 }
 
+.footer-top {
+    margin-bottom: 45px;
+}
+
 .footer-middle,
 .footer-bottom {
     border-top: 1px solid #5e5e5e;
+}
+
+.footer-middle {
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .footer-menu h3 {
@@ -362,6 +371,10 @@ body {
 
 .footer-menu a:active {
     color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-bottom {
+    padding-top: 50px;
 }
 
 .footer-social b {
