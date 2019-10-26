@@ -103,8 +103,8 @@ body {
 }
 
 .features {
-  padding-top: 50px;
-  padding-bottom: 55px;
+    padding-top: 50px;
+    padding-bottom: 55px;
 }
 
 .features ul {
@@ -331,7 +331,8 @@ body {
 }
 
 .page-footer {
-    margin-top: 20px;
+    padding-top: 45px;
+    padding-bottom: 50px;
 }
 
 .footer-middle,
