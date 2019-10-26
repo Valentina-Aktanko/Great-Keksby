@@ -239,6 +239,10 @@ body {
     margin-right: 48px;
 }
 
+.catalog-item:last-child {
+    margin-right: 0;
+}
+
 .catalog-item img {
     max-width: 100%;
     height: auto;
