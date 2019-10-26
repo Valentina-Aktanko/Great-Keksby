@@ -149,6 +149,17 @@ body {
 
 .cat-reference {
     background-color: #f2f2f2;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.cat-reference dl {
+    width: 820px;
+}
+
+.cat-reference dt {
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .section-title {
@@ -163,8 +174,16 @@ body {
     border-radius: 5px;
 }
 
+.cat-reference dd {
+    margin: 0;
+}
+
 .reference-title {
     font-size: 24px;
+}
+
+.cat-reference dd + dt {
+    margin-top: 70px;
 }
 
 .reference-source {
