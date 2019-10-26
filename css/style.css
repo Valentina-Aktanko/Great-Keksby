@@ -339,6 +339,12 @@ body {
     margin-bottom: 45px;
 }
 
+.footer-logo {
+    float: left;
+    width: 205px;
+    height: 55px;
+}
+
 .footer-middle,
 .footer-bottom {
     border-top: 1px solid #5e5e5e;
