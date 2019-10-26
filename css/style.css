@@ -233,6 +233,17 @@ body {
     margin-bottom: 50px;
 }
 
+.catalog-item {
+    float: left;
+    width: 308px;
+    margin-right: 48px;
+}
+
+.catalog-item img {
+    max-width: 100%;
+    height: auto;
+}
+
 .catalog-item h3 {
     font-size: 16px;
     color: #000000;
