@@ -218,6 +218,17 @@ body {
     padding-bottom: 90px;
 }
 
+.section-title {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 60px;
+    margin-right: 180px;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: "Georgia", serif;
+    color: #a38b70;
+}
+
 .cat-reference dl {
     width: 820px;
 }
@@ -225,14 +236,6 @@ body {
 .cat-reference dt {
     margin: 0;
     margin-bottom: 10px;
-}
-
-.section-title {
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 55px;
-    font-family: "Georgia", serif;
-    color: #a38b70;
 }
 
 .cat-reference dd img {
