@@ -115,6 +115,18 @@ body {
     border-color: #ffffff;
 }
 
+.btn-quick-order:hover {
+    color: #404040;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-quick-order:active {
+    color: rgba(64, 64, 64, 0.3);
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
 .promo {
     font-weight: bold;
     font-size: 45px;
