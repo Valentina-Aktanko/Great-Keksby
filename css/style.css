@@ -46,8 +46,8 @@ body {
 }
 
 .header-logo img {
-  width: 205px;
-  height: 55px;
+    width: 205px;
+    height: 55px;
 }
 
 .main-nav {
@@ -146,9 +146,9 @@ body {
 }
 
 .features ul {
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .feature-item {
@@ -178,24 +178,15 @@ body {
 }
 
 .feature-choice::before {
-  background-position: -5px -5px;
+    background-position: -5px -5px;
 }
 
 .feature-quality::before {
-  background-position: -5px -76px;
+    background-position: -5px -76px;
 }
 
 .feature-safety::before {
-  background-position: 1px -143px;
-}
-
-.feature-choice {
-}
-
-.feature-quality {
-}
-
-.feature-safety {
+    background-position: 1px -143px;
 }
 
 .feature-title {
@@ -203,7 +194,7 @@ body {
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 30px;
-    line-height: 30px;  
+    line-height: 30px;
     font-family: "Georgia", serif;
     color: #a38b70;
 }
@@ -213,9 +204,9 @@ body {
 }
 
 .cat-reference {
-    background-color: #f2f2f2;
     padding-top: 70px;
     padding-bottom: 90px;
+    background-color: #f2f2f2;
 }
 
 .cat-reference .container {
@@ -223,10 +214,10 @@ body {
 }
 
 .section-title {
-    font-weight: bold;
     margin: 0;
-    margin-bottom: 60px;
     margin-right: 180px;
+    margin-bottom: 60px;
+    font-weight: bold;
     font-size: 45px;
     line-height: 55px;
     font-family: "Georgia", serif;
@@ -244,11 +235,21 @@ body {
     margin: 0;
     padding: 0;
 }
-}
 
 .cat-reference dt {
     margin: 0;
     margin-bottom: 10px;
+}
+
+.cat-reference dd {
+    position: relative;
+    min-height: 100px;
+    margin: 0;
+    padding-left: 130px;
+}
+
+.cat-reference dd + dt {
+    margin-top: 70px;
 }
 
 .cat-reference dd img {
@@ -261,22 +262,12 @@ body {
 }
 
 .cat-reference dd p {
-  margin: 0;
-}
-
-.cat-reference dd {
-    position: relative;
-    min-height: 100px;
     margin: 0;
-    padding-left: 130px;
 }
 
 .reference-title {
+    display: inline;
     font-size: 24px;
-}
-
-.cat-reference dd + dt {
-    margin-top: 70px;
 }
 
 .reference-source {
@@ -285,6 +276,7 @@ body {
 }
 
 .reference-source a {
+    position: relative;
     color: #a38b70;
 }
 
@@ -294,6 +286,16 @@ body {
 
 .reference-source a:active {
     color: rgba(141, 116, 90, 0.3);
+}
+
+.reference-source a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -10px;
+    width: 8px;
+    height: 8px;
+    background: url("../img/sprite.png") no-repeat -5px -210px;
 }
 
 .reviews {
@@ -439,8 +441,8 @@ body {
 }
 
 .footer-middle {
-    padding-top: 50px;
     margin-bottom: 50px;
+    padding-top: 50px;
 }
 
 .footer-middle,
@@ -449,9 +451,9 @@ body {
 }
 
 .footer-menu {
-  float: left;
-  width: 150px;
-  margin-right: 20px;
+    float: left;
+    width: 150px;
+    margin-right: 20px;
 }
 
 .footer-menu h3 {
