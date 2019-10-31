@@ -110,6 +110,9 @@ body {
 
 .btn-quick-order {
     float: right;
+    margin-top: 6px;
+    color: #ffffff;
+    border-color: #ffffff;
 }
 
 .promo {
