@@ -252,13 +252,23 @@ body {
 }
 
 .cat-reference dd img {
-    border-radius: 5px;
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.cat-reference dd p {
+  margin: 0;
 }
 
 .cat-reference dd {
     position: relative;
+    min-height: 100px;
     margin: 0;
+    padding-left: 130px;
 }
 
 .reference-title {
