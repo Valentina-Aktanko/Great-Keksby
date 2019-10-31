@@ -85,12 +85,17 @@ body {
 
 .btn {
     display: inline-block;
+    width: 146px;
     padding: 10px;
+    font: inherit;
     vertical-align: top;
+    text-align: center;
     color: #a38b70;
     text-transform: uppercase;
     text-decoration: none;
+    word-wrap: break-word;
     border: 2px solid #a38b70;
+    border-radius: 2px;
 }
 
 .btn:hover {
