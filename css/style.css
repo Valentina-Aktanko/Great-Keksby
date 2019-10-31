@@ -218,6 +218,10 @@ body {
     padding-bottom: 90px;
 }
 
+.cat-reference .container {
+    position: relative;
+}
+
 .section-title {
     font-weight: bold;
     margin: 0;
@@ -227,6 +231,12 @@ body {
     line-height: 55px;
     font-family: "Georgia", serif;
     color: #a38b70;
+}
+
+.to-full-reference {
+    position: absolute;
+    top: 5px;
+    right: 0;
 }
 
 .cat-reference dl {
