@@ -45,17 +45,29 @@ body {
     height: 55px;
 }
 
+.header-logo img {
+  width: 205px;
+  height: 55px;
+}
+
 .main-nav {
     float: left;
     width: 520px;
     margin: 0;
+    margin-top: 18px;
     margin-left: 125px;
     padding: 0;
     list-style: none;
 }
 
 .main-nav li {
+    float: left;
+    margin-right: 50px;
     text-transform: uppercase;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
 }
 
 .main-nav a {
