@@ -491,6 +491,19 @@ body {
     margin-bottom: 15px;
 }
 
+.feedback-form-group-left-part {
+    float: left;
+}
+
+.feedback-form-group-right-part {
+    float: right;
+}
+
+.feedback-form-group-left-part,
+.feedback-form-group-right-part {
+    width: 290px;
+}
+
 .feedback-form-group label {
     display: inline-block;
     padding: 5px 0;
