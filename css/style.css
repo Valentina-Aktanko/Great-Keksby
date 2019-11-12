@@ -701,8 +701,19 @@ body {
 .footer-copyright {
     float: right;
     width: 236px;
+    margin-top: 17px;
     color: #ffffff;
     text-transform: uppercase;
+}
+
+.footer-copyright .heart {
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+    vertical-align: middle;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -5px -419px;
 }
 
 .footer-copyright a {
