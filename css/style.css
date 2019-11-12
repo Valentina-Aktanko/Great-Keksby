@@ -550,8 +550,14 @@ body {
 }
 
 .checkbox-area input[type="checkbox"] {
-  margin: 0;
-  margin-right: 5px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.feedback-form .btn {
+    margin-top: 40px;
+    color: #ffffff;
+    background-color: #a38b70;
 }
 
 .page-footer {
