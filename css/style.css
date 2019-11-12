@@ -672,7 +672,21 @@ body {
     margin-right: 6px;
     vertical-align: middle;
     color: #ffffff;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
     border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-btn-vk {
+    background-position: 16px -238px;
+}
+
+.social-btn-fb {
+    background-position: 19px -297px;
+}
+
+.social-btn-in {
+    background-position: 13px -358px;
 }
 
 .footer-copyright {
