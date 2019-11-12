@@ -464,6 +464,21 @@ body {
     padding-bottom: 70px;
 }
 
+.feedback .container {
+    position: relative;
+}
+
+.feedback .section-title {
+    max-width: 500px;
+}
+
+.feedback-tip {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 500px;
+}
+
 .feedback-form {
     width: 630px;
     padding-right: 390px;
@@ -473,10 +488,13 @@ body {
 }
 
 .feedback-form-group {
-    padding: 10px 0;
+    margin-bottom: 15px;
 }
 
 .feedback-form-group label {
+    display: inline-block;
+    padding: 5px 0;
+    padding-left: 17px;
     font-size: 12px;
     text-transform: uppercase;
 }
@@ -484,6 +502,10 @@ body {
 .feedback-form input[type="text"],
 .feedback-form select,
 .feedback-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 54px;
+    padding: 9px 15px;
     font: inherit;
     color: inherit;
     border: 2px solid #d5d5d5;
