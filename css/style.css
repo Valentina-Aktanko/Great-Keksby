@@ -536,8 +536,22 @@ body {
     border-color: #8d745a;
 }
 
+.feedback-form textarea {
+    display: block;
+    min-height: 120px;
+}
+
 .checkbox-area {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 17px;
     border-bottom: 1px solid #d5d5d5;
+}
+
+.checkbox-area input[type="checkbox"] {
+  margin: 0;
+  margin-right: 5px;
 }
 
 .page-footer {
